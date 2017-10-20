@@ -14,15 +14,6 @@ public class Libro {
     public String titulo;
     public String autor;
     public int anio;
-    public int cantidadEjemplares;
-
-    public void prestarEjemplares(int cantidad) {
-        cantidadEjemplares -= cantidad;
-    }
-
-    public void devolverEjemplares(int cantidad) {
-        cantidadEjemplares += cantidad;
-    }
 
 //    public  Libro() {  //CONSTRUCTOR devuelve void pero no se coloca tipo
 //    titulo="Sin Titulo";
@@ -38,7 +29,7 @@ public class Libro {
         this.titulo = titulo;
         this.autor = autor;
         this.anio = anio;
-        this.cantidadEjemplares = cantidadEjemplares;
+        //this.cantidadEjemplares = cantidadEjemplares;
     }
 /*
      * This

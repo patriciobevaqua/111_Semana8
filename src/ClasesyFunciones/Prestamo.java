@@ -4,11 +4,28 @@
  * and open the template in the editor.
  */
 package ClasesyFunciones;
-
+import java.util.Date;
 /**
  *
  * @author Estudio
  */
 public class Prestamo {
+    
+    
+        public Date fechaPrestamo;
+        public Date fechaDevolucion;
+        public Ejemplar ejemplar;
+        public Persona persona;
+
+    public void prestarEjemplares(int cantidad) {
+        //cantidadEjemplares -= cantidad;
+    }
+
+    public void devolverEjemplares(int cantidad) {
+        //cantidadEjemplares += cantidad;
+    }
+
+    
+    
     
 }

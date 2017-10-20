@@ -10,5 +10,7 @@ package ClasesyFunciones;
  * @author Estudio
  */
 public class Ejemplar {
+    public int numero;
+    public boolean estado;
     
 }

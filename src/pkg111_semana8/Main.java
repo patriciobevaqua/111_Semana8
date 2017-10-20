@@ -6,6 +6,7 @@
 package pkg111_semana8;
 
 import ClasesyFunciones.Funciones;
+import java.util.Date;
 import javax.swing.JOptionPane;
 
 /**
@@ -20,6 +21,15 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
 
+        Date fechaActual= new Date();
+        //impresion con cadena e fecha
+        System.out.println(fechaActual);
+        
+        Date fechaAnioMesDia=new Date(117,9,20);  // 2017-1900=117  | mes va de 0 a 11
+        System.out.println(fechaAnioMesDia);
+        
+        
+        
         int opcion;  // variable donde se guardará la opción del menu elegida por el usuario
         boolean salirMenu = false; // es la variable que se afecta para salir del menu y del programa con la opcion 6
         while (salirMenu != true) { //para entrar y salir del menu y del programa
@@ -36,7 +46,6 @@ public class Main {
                     + "9. Salir\n");
 
             switch (opcion) {
-
                 case 1:
                     JOptionPane.showMessageDialog(null, "en proceso");
                     break;
@@ -52,9 +61,7 @@ public class Main {
                     break;
                 case 5:
                     JOptionPane.showMessageDialog(null, "en proceso");
-
                     break;
-
                 case 6:
                     JOptionPane.showMessageDialog(null, "en proceso");
                     break;

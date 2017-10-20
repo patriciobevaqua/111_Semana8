@@ -10,5 +10,9 @@ package ClasesyFunciones;
  * @author Estudio
  */
 public class Persona {
-    
+
+    public String nombre;
+    public String apellido;
+    public String dni;
+
 }
